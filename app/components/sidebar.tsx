@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGpt</div>
         <div className={styles["sidebar-sub-title"]}>
-          添加微信h285426134 提供更多技术支持
+          大连华泰臣科技服务有限公司
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -176,7 +176,7 @@ export function SideBar(props: { className?: string }) {
         </a>
       </div>
 
-      <div className={styles["sidebar-bar-button"]}>
+      {/* <div className={styles["sidebar-bar-button"]}>
         <a href="https://painted-toucan-5e6.notion.site/ChatGpt-30cbb93b65504c90b3aac21b4e9968ea?pvs=4" target="_blank">
           <IconButton
             icon={<GithubIcon />}
@@ -184,9 +184,9 @@ export function SideBar(props: { className?: string }) {
             shadow
           />
         </a>
-      </div>
+      </div> */}
 
-      <div className={styles["sidebar-bar-button"]}>
+      {/* <div className={styles["sidebar-bar-button"]}>
         <a href="https://docs.qq.com/doc/DZEh6TmdZY3JIU2d1?u=23e2e15f472c4060ae38ffeb78b05cd2" target="_blank">
           <IconButton
             icon={<GithubIcon />}
@@ -194,7 +194,7 @@ export function SideBar(props: { className?: string }) {
             shadow
           />
         </a>
-      </div>
+      </div> */}
 
       <div className={styles["sidebar-bar-button"]}>
         <a href="https://docs.qq.com/doc/DZGJ4clJmWUpYdWZN?u=355c394f2acc42e4bec073093f2b96f8" target="_blank">
@@ -234,7 +234,7 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div> */}
-          <div className={styles["sidebar-action"]}>
+          {/* <div className={styles["sidebar-action"]}>
             <Link to={Path.Settings}>
               <IconButton
                 icon={<SettingsIcon />}
@@ -242,7 +242,7 @@ export function SideBar(props: { className?: string }) {
                 shadow
               />
             </Link>
-          </div>
+          </div> */}
           {/* <div className={styles["sidebar-action"]}>
             <a href="https://chatgptvip.shop/chatgpt%e4%b8%ad%e6%96%87%e8%b0%83%e6%95%99%e6%8c%87%e5%8d%97" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
